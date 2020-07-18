@@ -10,35 +10,44 @@
         p {
             margin-top:40px;
         }
+        h1 {
+            margin-bottom:40px;
+        }
+        .todolist {
+            width: 35%;
+            margin-top:50px;
+            margin-bottom:50px;
+            padding: 10px;
+            border: 1px solid black;
+            text-align:center;
+        }
+        .goal {
+            list-style: none;
+        }
     </style>
 </head>
 <body>
 <h1>안녕하세요?</h1>
-<p>
-    <h3>이 홈페이지는...</h3>
+<h3>이 홈페이지는...</h3>
     <ol>
         <li>쥔장의 투두리스트 갱신</li>
         <li>html 실습</li>
     </ol>
-    두 가지 목적을 위해 만들어졌습니다.<br>배보다 배꼽이 큽니다.
-</p>
-<p>
-    <h3>오늘의 할 일</h3>
-    <ul>
-        <li>CSS 강좌 듣기 (2개 이상)</li> 
-        <li>따라 할 홈페이지 구성 공부하기</li>
-        <li>그림 스케치 2차</li>
-        <li>다이어리 정리하기 (스케쥴만)</li>
-        <!--<li></li>-->
+두 가지 목적을 위해 만들어졌습니다.<br>배보다 배꼽이 큽니다.<br>가운데 정렬을 향해 여정중...
+<div class='todolist'>
+<h3>오늘의 할 일</h3>
+    <ul style="padding:0px">
+        <li class="goal">홈페이지 공사</li>
+        <li class="goal">CSS 강좌 듣기 (2개 이상)</li> 
+        <li class="goal">따라 할 홈페이지 구성 공부하기</li>
+        <li class="goal">그림 선 따기</li>
     </ul>
-</p>
-<p>
-    <h4><a href="지난일과.html">지난 일과 보러가기</a></h4>
-    <h4><a href="pic.html">그림 보러가기</a></h4>
-    <h4>외부링크</h4>
+</div>
+<h4><a href="지난일과.html">지난 일과 보러가기</a></h4>
+<h4><a href="pic.html">그림 보러가기</a></h4>
+<h4>외부링크</h4>
     <ul>
         <li><a href="https://twitter.com/" target="_blank">트위터</a></li>
         <li><a href="응원.html" target="_blank" title="감사합니다!">응원하러 가기</a></li>
     </ul>
-</p>
 </body>
