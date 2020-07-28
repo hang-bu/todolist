@@ -3,23 +3,40 @@
 <head>
     <title>나의 투두 오렌지 나무</title>
     <meta charset="utf-8">
-    <style>
-        a {
-            color:black
-        }
-        p {
-            margin-top:40px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<header>
+    <div class="menu">
+        <span>
+            <h1><a href="/투두리스트/index.html">TODOLIST</a></h1>
+        </span>
+        <span>
+            <ul style="display:inline;">
+                <li class="btn"><a href="지난일과.html">지난 일과 보러가기</a>
+                <li class="btn"><a href="pic.html">그림 보러가기</a></li>
+                <li class="btn"><a href="응원.html" target="_blank" title="감사합니다!">응원하러 가기</a></li>
+            </ul>
+        </span>
+    </div>
+</header>    
+<div class="content">
     <h3>그림</h3>
-    <p><ul>
-        <li>워너비챌린지</li>
-        <a href="wnb1.html" target="_blank">하나</a>
-    </ul></p>
-    <p><ul>
-        <li>LnP</li>
-        <a href="lnp1.html" target="_blank">하나</a> <a href="lnp2.html" target="_blank">둘</a> <a href="lnp3.html" target="_blank">셋</a> <a href="lnp4.html" target="_blank">넷</a>
-    </ul></p>
+    <ul class="genre">
+        <li class="genrename">워너비챌린지</li>
+            <ul>
+                <li class="btn"><a href="wnb1.html" target="_blank">하나</a>
+                </li>
+            </ul>
+    </ul>
+    <ul class="genre">
+        <li class="genrename">LnP</li>
+            <ul>
+                <li class="btn"><a href="lnp1.html" target="_blank">하나</a></li>
+                <li class="btn"><a href="lnp2.html" target="_blank">둘</a></li>
+                <li class="btn"><a href="lnp3.html" target="_blank">셋</a></li>
+                <li class="btn"><a href="lnp4.html" target="_blank">넷</a></li>
+            </ul>
+    </ul>
+</div>
 </body>
