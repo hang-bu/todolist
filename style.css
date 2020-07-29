@@ -12,19 +12,18 @@ p {
     margin-top:40px;
 }
 h1 {
-    display:inline;
-    margin: 40px;
+    display:inline-block;
+    vertical-align: middle;
+    padding:0 20px;
+    margin:0;
 }
 h2 {
     margin-bottom:40px;
 }
 ul {
-    width:100%;
-    padding-left:0;
-    margin-left:0;
+    padding:0;
 }
 ol {
-    width:100%;
     padding-left:0;
 }
 .menu {
@@ -33,7 +32,12 @@ ol {
     left:0;
     width: 100%;
     color:cadetblue;
-    background-color: white;
+    background-color:#fff;
+}
+.nav {
+    display: inline-block;
+    vertical-align: middle;
+    padding:0;
 }
 .content {
     width:70%;
@@ -55,11 +59,13 @@ ol {
     margin:10px;
 }
 .btn {
-    display:inline;
-    margin: 20px;
+    display:inline-block;
+    padding: 0 20px;
+    font-size: 14px;
 }
 /*지난 일정 보러가기*/
 .date {
+    display: block;
     margin-top: 40px;
 }
 .ex {
