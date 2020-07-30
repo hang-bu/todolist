@@ -58,10 +58,32 @@ ol {
     list-style: none;
     margin:10px;
 }
+.goal2 {
+    margin:15px;
+}
 .btn {
     display:inline-block;
     padding: 0 20px;
     font-size: 14px;
+}
+/*위시리스트*/
+.wishlist {
+    width: 50%;
+    margin-left:23%;
+    margin-top:70px;
+    margin-bottom:50px;
+    padding:10px;
+    border: 1px solid black;
+    text-align:center;
+}
+.wishlist2 {
+    width: 50%;
+    margin-left:23%;
+    margin-top:70px;
+    margin-bottom:50px;
+    padding:10px;
+    border: 1px solid black;
+    text-align:center;
 }
 /*지난 일정 보러가기*/
 .date {
