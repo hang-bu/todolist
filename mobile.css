@@ -48,7 +48,7 @@ ol {
 .todolist {
     width: 260px;
     margin-top:50px;
-    margin-left: 0;
+    margin-left: 10%;
     padding:10px;
     border: 1px solid cadetblue;
 }
